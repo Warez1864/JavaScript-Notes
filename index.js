@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Set the variable var1 to a string type
 let var1 = ""
 
@@ -18,11 +18,9 @@ let var4 = [
 
 const con1
 
-var1 =25;
+var1 = 25;
 
 
 
 var4.push(5);
-=======
 
->>>>>>> 60aa4c3788b68651f12e8ae78c56f9f5cd7c7fd4
