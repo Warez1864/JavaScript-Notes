@@ -1,58 +1,24 @@
-/* const numbers = arrayFromRange (1, 4);
+// Set the variable var1 to a string type
+let var1 = ""
 
-console.log(numbers);
+// Set the variable var2 to an type
+let var2 = 1
 
-function arrayFromRange(min, max) {
-    const output = [];
-    for (let i = min; i <= max; i++)
-    output.push(i);
-    return output;
+// Set the variable var3 to an s
+let var3 = 2.5
+
+let person = {
+
 }
 
-*/
+let var4 = [
+    1, 2, 3, 4
+]
+
+const con1
+
+var1 =25;
 
 
-/*
 
-const numbers = [1, 2, 3, 4];
-
-console.log(includes(numbers, 6));
-
-function includes(array, searchElement) {
-    for (let element of array)
-    if (element === searchElement)
-    return true;
-    return false;
-}
-
-*/
-
-
-/*
-
-const numbers = [1, 2, 3, 4];
-
-const output = except(numbers, [1, 4]);
-
-console.log(output);
-
-function except(array, excluded) {
-    const output = [];
-    for (let element of array)
-    if(excluded.includes(element))
-    output.push(element);
-    return output;
-}
-
-*/
-
-
-const numbers = [1, 2, 3, 4];
-
-const output = move(numbers, 0, 0);
-
-console.log(output);
-
-function move(array, index, offset) {
-    
-}
+var4.push(5);
