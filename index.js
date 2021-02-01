@@ -24,5 +24,13 @@ let var4 = [
 // Add the number 5 to the array
 var4.push(5);
 
-// Make a constant called con1
-const con1
+
+// Make a function called greet, and show a greeting
+function greet(name) {
+    console.log('Hello ' + name);
+}
+greet('John');
+
+
+// function greet(name)  -  (name) is name is the paramether
+// greet('John');  -  ('John') is the argument
