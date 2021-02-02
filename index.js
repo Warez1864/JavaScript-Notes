@@ -26,19 +26,24 @@ var4.push(5);
 
 
 // Make a function called greet, and show a greeting
+// function greet(name)  -  (name) is the paramether
 function greetings(name, surName, lastName) {
     console.log('Hello And Welcome ' + name + ' ' + surName + ' ' + lastName);
 }
+// greetings('John');  -  ('John') is the argument
 greetings('John', 'Smith', 'Lauren');
 greetings('Peter', 'Andersen', 'Tomsen')
 greetings('Lars', 'Sørensen', 'Larsen')
 
-// function greet(name)  -  (name) is the paramether
-// greetings('John');  -  ('John') is the argument
 
 
 // Make a function that calculates 2 numbers
+// So now it will calculate 50 * 50 which is 2500
 function square(number) {
     return number * number;
 }
 console.log(square(50));
+
+
+
+//
