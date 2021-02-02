@@ -25,7 +25,7 @@ let var4 = [
 var4.push(5);
 
 
-// Make a function called greet, and show a greeting
+// Make a function called greet, and show the greeting Hello And Welcome to each person
 // function greet(name)  -  (name) is the paramether
 function greetings(name, surName, lastName) {
     console.log('Hello And Welcome ' + name + ' ' + surName + ' ' + lastName);
@@ -47,3 +47,44 @@ console.log(square(50));
 
 
 //
+
+
+function minus(numbers) {
+    return numbers - numbers;
+}
+console.log(minus(55));
+
+
+
+
+
+
+// The variable x is set to 10
+let x = 10;
+// The variable y is set to 3
+let y = 3;
+
+// + is the addition operator
+// x + y is called an expression in JavaScript
+// An expression is something that produces a value
+console.log(x + y);
+
+
+
+
+
+
+
+// JavaScript Operators
+
+// Arithmetic
+
+// Asignment
+
+// Comparison
+
+// Logical
+
+// Bitwise
+
+
