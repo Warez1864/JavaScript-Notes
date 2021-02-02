@@ -26,11 +26,19 @@ var4.push(5);
 
 
 // Make a function called greet, and show a greeting
-function greet(name) {
-    console.log('Hello ' + name);
+function greetings(name, surName, lastName) {
+    console.log('Hello And Welcome ' + name + ' ' + surName + ' ' + lastName);
 }
-greet('John');
+greetings('John', 'Smith', 'Lauren');
+greetings('Peter', 'Andersen', 'Tomsen')
+greetings('Lars', 'Sørensen', 'Larsen')
+
+// function greet(name)  -  (name) is the paramether
+// greetings('John');  -  ('John') is the argument
 
 
-// function greet(name)  -  (name) is name is the paramether
-// greet('John');  -  ('John') is the argument
+// Make a function that calculates 2 numbers
+function square(number) {
+    return number * number;
+}
+console.log(square(50));
