@@ -104,6 +104,14 @@ console.log(x) // Output 9
 
 
 // Asignment JavaScript Operators
+let a = 5; 
+
+a = a + 10; // a is 5 so its the same as 5 + 10 // Output: 15
+
+// a += 10 is the same as a = a + 10; // Output: 15
+a += 10;
+
+
 
 
 // Comparison JavaScript Operators
