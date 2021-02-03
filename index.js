@@ -57,34 +57,59 @@ console.log(minus(55));
 
 
 
-
+// JavaScript Operators
 
 // The variable x is set to 10
 let x = 10;
 // The variable y is set to 3
 let y = 3;
 
-// + is the addition operator
 // x + y is called an expression in JavaScript
 // An expression is something that produces a value
+
+// Arithmetic JavaScript Operators
+
+// Addition
 console.log(x + y);
+// Subtraktion
+console.log(x - y);
+// Multiplikation
+console.log(x * y);
+// Division
+console.log(x / y);
+// Remainder of division
+console.log(x % y);
+// Exponentiation Operator (x^y)
+console.log(x ** y);
+
+
+
+// Increment (++)
+console.log(x) // Output 10
+console.log(++x) // Output 10 + 1 = 11
+
+console.log(x++) // Output 10, x = 11
+console.log(x) // Output 11
+
+
+// Decrement (--)
+console.log(x) // Ouput 10
+console.log(--x) // Output 10 - 1, x = 9
+
+console.log(x--) // Output 10, x = 9
+console.log(x) // Output 9
 
 
 
 
 
+// Asignment JavaScript Operators
 
 
-// JavaScript Operators
+// Comparison JavaScript Operators
 
-// Arithmetic
+// Logical JavaScript Operators
 
-// Asignment
-
-// Comparison
-
-// Logical
-
-// Bitwise
+// Bitwise JavaScript Operators
 
 
