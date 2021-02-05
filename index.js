@@ -116,18 +116,19 @@ a += 10;
 
 
 
-
 // Comparison JavaScript Operators
 // The result of an expression, that includes a comparison operator is a boolean, so its either true or false.
 
 let n = 1;
+
+// We Refer these 4 Operators as Relational Operators
 
 // The Operator > is the "Greater Than" // So we are checking now if n is greater than 0
 // So our output will be true, because 1 is greater than 0
 console.log(n > 0);
 
 // The Operator >= is the "Greater Than or Equal To"
-// So now we wil get true again because 1 is obviously equal to 1, if not greater
+// So now we wil get true again because 1 is obviously equal to 1, if not greater than 1
 console.log(n >= 1);
 
 
@@ -135,11 +136,19 @@ console.log(n >= 1);
 // Our output will be false, because 1 is not less than 1
 console.log(n < 1);
 
+// The Operator <= is the "Less Than or Equal To"
+// So our output will be true because 1 is equal to 1, if not less than 1
+console.log(n <= 1);
 
-console.log(n < 1);
 
+// We Refer the === Operator as Equality Operator
+// This Operator checks to see if n is equal to 1
+// Becuase it it, our output will be true
+console.log(n === 1);
 
-
+// But if we want to check if n is not equal to a given value, we use the !== Operator
+// So now our output will be false, because n is equal to 1
+console.log(n !== 1);
 
 
 
