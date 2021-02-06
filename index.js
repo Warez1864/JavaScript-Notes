@@ -1,15 +1,15 @@
 
 // Set the variable var1 to a string type
-let var1 = ""
+let var1 = "";
 
 // Change the type of the variable var1 from a string to an integer
 var1 = 25;
 
 // Set the variable var2 to an integer type
-let var2 = 1
+let var2 = 1;
 
 // Set the variable var3 to a float type
-let var3 = 2.5
+let var3 = 2.5;
 
 // Make an empty object called person
 let person = {
@@ -19,7 +19,7 @@ let person = {
 // Make an array with some numbers
 let var4 = [
     1, 2, 3, 4
-]
+];
 
 // Add the number 5 to the array
 var4.push(5);
@@ -37,23 +37,21 @@ greetings('Lars', 'Sørensen', 'Larsen')
 
 
 
-// Make a function that calculates 2 numbers
-// So now it will calculate 50 * 50 which is 2500
-function square(number) {
-    return number * number;
+// Make a function that multiplies 50 by 5
+// So now it will calculate 50 * 5 which is 250
+function square(number, lastNumber) {
+    return number * lastNumber;
 }
-console.log(square(50));
+console.log(square(50, 5));
 
 
 
-//
-
-
-function minus(numbers) {
-    return numbers - numbers;
+// Make a function that minuses 150 by 50
+// So now it will calculate 150 - 50 which is 100
+function minuss(number, lastNumber) {
+    return number - lastNumber;
 }
-console.log(minus(55));
-
+console.log(minuss(150, 50));
 
 
 
@@ -141,15 +139,21 @@ console.log(n < 1);
 console.log(n <= 1);
 
 
-// We Refer the === Operator as Equality Operator
-// This Operator checks to see if n is equal to 1
-// Becuase it it, our output will be true
-console.log(n === 1);
+// We Refer the === Operator as a Strict Equality Operator
+// This Operator checks to see if 1 have the same type + value as 1
+// Becuase the value is 1 and the type is a number on both sides, our output will be true
+console.log(1 === 1);
 
-// But if we want to check if n is not equal to a given value, we use the !== Operator
-// So now our output will be false, because n is equal to 1
-console.log(n !== 1);
+// Because only the value is equal and not the type, we wil get false
+// Both the type and value have to be the same
+console.log('1' === 1);
 
+// If we want to check if n is not equal to a given value, we use the !== Operator
+// So now our output will be false, because 1 is equal to 1
+console.log(1 !== 1);
+
+// We Refer the == Operator as a Lose Equality Operator
+console.log(1 == 1);
 
 
 
