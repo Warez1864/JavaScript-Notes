@@ -189,7 +189,8 @@ let eligibleForLoan = highIncome && goodCreditScore;
 console.log(eligibleForLoan);
 
 // Logical OR (||)
-
+// (Remember that the || Operator isnt't neceseraliy a true or false, that depends on the operands we have) Exaple, false || 1   // Our output will be 1
+// So when the JavaScript Engine tries to evaluate our expression, it looks at each operand. If that operand isn't a boolean true or false, it wil try to interpret it as a truthy or falsy
 // This || Operator returns true if one of the operands is true, (it doesen't matter which one is true)
 let highIncome2 = false;
 let goodCreditScore2 = true;
@@ -204,9 +205,44 @@ let applicationRefused = !eligibleForLoan2;
 console.log('Application Refused', applicationRefused);
 
 
+// Falsy
+// (A Falsy is not the same as a false in a boolean!)
 
+// In a Falsy we have:
+
+// undefined
+// null
+// 0
+// false
+// ''
+// NaN or 'Not a Number' is a special value in JavaScript, when we are dealingwith a mathematical calculation that does not produce a vald number, this value is returned
+
+// If we use any of these values in a logical expression, they will be treated as falsy
+
+// Anything that is not a falsy is a truthy
+
+// false || 1 || 2
+// As soon as it finds a truthy, that operand is returned, so we wil get 1 in the console (The evaluation stops when the first value is returned in the console)
+// It ignores all the other operands in the right side even if we had a millions of them, and that is called a Short-circuiting
+
+
+
+
+let userColor = 'red';
+let defaultColor = 'blue';
+let currentColor = userColor | defaultColor;
+
+console.log(currentColor);
+
+// The output will be red in the console, because the user has selected a color (red). 
+// If the user doesn't select a color, then the output will be blue in the console
 
 
 // Bitwise JavaScript Operators
 
+// Each digit is called a bit
+// 1 = 00000001
+// 2 = 00000010
+
+// Bitwise Operators in JavaScript or any other programming languages, are simmilar to logical operators
 
