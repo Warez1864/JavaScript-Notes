@@ -283,5 +283,33 @@ console.log(secondColor);
 
 
 
+// Control Flow Section
 
-// Control Flow
+// Conditional Statements
+//If...else
+
+// Hour
+// If Hour is between 6am and 12 pm: Good Morning
+// If hour is between 12pm and 6pm: Good Afternnon
+// Otherwise: Good Evening
+
+// In between the paranthesis () is the condition
+// If the conition evaluates to true, the statement we put after, wil be executted
+// If we have multiple statements, we have to put it in between the curly braces, and we refer these (the curly braces and the statements) as the block of code
+
+
+let hour = 20;
+
+if (hour >= 6 && hour < 12) 
+    console.log('Good Morning');
+else if (hour >= 12 && hour < 18)
+    console.log('Good Afternoon');
+else
+console.log('Good Evening');
+
+
+
+
+//Swicth...case
+
+let role;
