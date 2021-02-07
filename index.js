@@ -194,8 +194,17 @@ console.log(eligibleForLoan);
 let highIncome2 = false;
 let goodCreditScore2 = true;
 let eligibleForLoan2 = highIncome2 || goodCreditScore2;
+// So if eligibleForLoan2 is true, Eligible will become true
+console.log('Eligible', eligibleForLoan2);
 
-console.log(eligibleForLoan2);
+// NOT (!)
+// if eligibleForLoan2 is true, the ! Operator will convert that to false
+let applicationRefused = !eligibleForLoan2;
+// So if applicationRefused is false, Application Refused will be false
+console.log('Application Refused', applicationRefused);
+
+
+
 
 
 // Bitwise JavaScript Operators
