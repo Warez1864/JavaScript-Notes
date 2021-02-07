@@ -153,11 +153,50 @@ console.log('1' === 1);
 console.log(1 !== 1);
 
 // We Refer the == Operator as a Lose Equality Operator
-console.log(1 == 1);
+// This operator only checks to see if the value is the same
+// sao even if we have a string with a number, we still get true
+console.log("1" == 1);
+
+
+// Ternary Operator
+// The ? is the Ternary Operator
+// Depending on the result you can set the type variable to a different value
+
+// "points > 100" is the condition  // If "?" its true we wil use the value 'gold', otherwise we wil use the other value 'silver'
+let points = 120;
+let type = points > 100 ? 'gold' : 'silver';
+
+console.log(type);
 
 
 
 // Logical JavaScript Operators
+
+// Logical AND (&&)
+
+// This && Operator returns true if both operands is true
+// So now we wil get true
+console.log(true && true);
+
+// But if one is false, (it doesen't matter which one), then it wil be false
+console.log(false && true);
+
+// An exaple, if we want to check the customer has a high income, then we wil accept the loan
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+
+console.log(eligibleForLoan);
+
+// Logical OR (||)
+
+// This || Operator returns true if one of the operands is true, (it doesen't matter which one is true)
+let highIncome2 = false;
+let goodCreditScore2 = true;
+let eligibleForLoan2 = highIncome2 || goodCreditScore2;
+
+console.log(eligibleForLoan2);
+
 
 // Bitwise JavaScript Operators
 
