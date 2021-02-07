@@ -215,7 +215,7 @@ console.log('Application Refused', applicationRefused);
 // 0
 // false
 // ''
-// NaN or 'Not a Number' is a special value in JavaScript, when we are dealingwith a mathematical calculation that does not produce a vald number, this value is returned
+// NaN or 'Not a Number' is a special value in JavaScript, when we are dealing with a mathematical calculation that does not produce a vald number, this value is returned
 
 // If we use any of these values in a logical expression, they will be treated as falsy
 
@@ -246,3 +246,42 @@ console.log(currentColor);
 
 // Bitwise Operators in JavaScript or any other programming languages, are simmilar to logical operators
 
+// Operators Precedence
+let q = 2 + 3 * 4;
+
+console.log(q);
+// The ouput will be 14, because the Multiplication Operator has more precedence than the Addtional Operator
+
+
+// Operators Exercise
+
+// The Answer:
+
+// let o = 'red';
+// let u = 'blue';
+
+// let c = o;
+// o = u;
+// u = c;
+
+// console.log(o);
+// console.log(u);
+
+
+// My first solution...
+
+let o = 'red';
+let u = 'blue';
+
+let firstColor = u || o;
+let secondColor = o || u;
+
+console.log(firstColor);
+console.log(secondColor);
+
+
+
+
+
+
+// Control Flow
